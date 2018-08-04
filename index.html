@@ -4,14 +4,21 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta http-equiv="X-UA-Compatible" content="ie=edge">
-      <title>Responsive Sticky Navbar</title>
-      <link rel="stylesheet" href="../css/styles.css">
+      <title>Eventz</title>
+      <link rel="stylesheet" href="css/styles.css">
+      <link rel="stylesheet" href="css/ser.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>     
       <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 </head>
 <body>
-      <div class="wrapper">
+
+ <!--HOME-->     
+      <section class="HOME" id="home">
             <header>
                   <nav>
                         <div class="menu-icon">
@@ -19,19 +26,19 @@
                         </div>
 
                         <div class="logo">
-                              <img src="../foot/eventz.png" alt="logo">
+                              <a href="#home"><img src="foot/eventz.png" alt="logo"></a>
                         </div>
 
                         <div class="menu">
                               <ul>
-                              <li><a href="#">HOME</a></li>
-                              <li><a href="#">SERVICES</a></li>
+                              <li><a href="#home">HOME</a></li>
+                              <li><a href="#services">SERVICES</a></li>
                               <li><a href="#">GALLERY</a></li>
                               <li><a href="#">PRICING</a></li>
                               <li><a href="#">TEAM</a></li>
                               <li><a href="#">CONTACT</a></li>
                              
-                              <div class="acc"><li><a href="My Account.html">MY ACCOUNT</a></li></div>
+                              <div class="acc"><li><a href="html/log.html">MY ACCOUNT</a></li></div>
                            
                               </ul>
                         
@@ -42,44 +49,187 @@
                                     </a>
                         </div>
                   </nav>
-                        <!--iv class="nam"><h1>EVENTZ Pvt LTD</h1></div-->
-
             </header>
 
-            <div class="content">
-                  <p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                  </p>
-                  <p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                  </p>
+            <div class="banner-container">
+                  <h1 class="top">EVENTZ</h1>
+                  <p>YOUR EVENT SOLUTION PARTNER</p>
             </div>
-      </div>
+            <div class="text">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+                <div class="social">
+                  <i class="fab fa-facebook"><a href="https://newsroom.fb.com/"></a></i>
+                  <i class="fab fa-instagram"><a href="https://help.instagram.com/"></a></i>
+                  <i class="fab fa-twitter-square"><a href="https://twitter.com/twitter?lang=en"></a></i>
+                </div>           
+      </section>
 
-      <script type="text/javascript">
+<!--SERVICES-->
+      <section class="SERVICES" id="services">
+                  <div class="nm">
+                        <h1>SERVICES</h1>
+                  </div>
+                     <div class="img">
+                        <div class="row">
+                              <br>
+                              <div class="col-md-4">
+                                    <div class="servicebox">
+                                          <div class= "service-icon">
+                                                <h3 class="title">Awardings</h3>
+                                                <i class="fa fa-globe"></i>
+                                          </div>
+                                          <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                          cillum dolore eu fugiat nulla pariatur.<br><a href="">more</a> </p>
+                                    </div>
+                              </div>
+                              
+                              <div class="col-md-4">
+                                    <div class="servicebox">
+                                          <div class= "service-icon">
+                                                <h3 class="title">Weddings</h3>
+                                                <i class="fa fa-briefcase"></i>
+                                          </div>
+                                          <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                          cillum dolore eu fugiat nulla pariatur.<br><a href="">more</a> </p>
+                                    </div>
+                              </div>
 
-      // Menu-toggle button
+                                    <div class="col-md-4">
+                                    <div class="servicebox">
+                                          <div class= "service-icon">
+                                                <h3 class="title">Live in Concerts</h3>
+                                                <i class="fa fa-heart"></i>
+                                          </div>
+                                          <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                          cillum dolore eu fugiat nulla pariatur.<br><a href="">more</a> </p>
+                                    </div>
+                              </div>
 
-      $(document).ready(function() {
-            $(".menu-icon").on("click", function() {
-                  $("nav ul").toggleClass("showing");
-            });
-      });
+                        </div>
+                        <div class="row">
+                              <div class="col-md-4">
+                                    <div class="servicebox">
+                                          <div class= "service-icon">
+                                                <h3 class="title">Sports Events</h3>
+                                                <i class="fab fa-hubspot"></i>
+                                          </div>
+                                          <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                          cillum dolore eu fugiat nulla pariatur.<br><a href="">more</a> </p>
+                                    </div>
+                              </div>
+                              
+                              <div class="col-md-4">
+                                    <div class="servicebox">
+                                          <div class= "service-icon">
+                                                <h3 class="title">Conferences</h3>
+                                                <i class="fa fa-cog"></i>
+                                          </div>
+                                          <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                          cillum dolore eu fugiat nulla pariatur.<br><a href="">more</a> </p>
+                                    </div>
+                              </div>
 
-      // Scrolling Effect
+                                    <div class="col-md-4">
+                                    <div class="servicebox">
+                                          <div class="service-icon">
+                                                <h3 class="title">Birthday Parties</h3>
+                                                <i class="fa fa-edit"></i>
+                                          </div>
+                                          <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                          cillum dolore eu fugiat nulla pariatur.<br><a href="">more</a> </p>
+                                    </div>
+                              </div>
 
-      $(window).on("scroll", function() {
-            if($(window).scrollTop()) {
-                  $('nav').addClass('black');
-            }
+                          </div>
+                        </div>
+      </section>
 
-            else {
-                  $('nav').removeClass('black');
-            }
-      })
+<script type="text/javascript">
+
+            // Menu-toggle button
+
+                        $(document).ready(function() {
+                              $(".menu-icon").on("click", function() {
+                                    $("nav ul").toggleClass("showing");
+                              });
+                        });
+
+                        // Scrolling Effect
+
+                        $(window).on("scroll", function() {
+                              if($(window).scrollTop()) {
+                                    $('nav').addClass('black');
+                              }
+
+                              else {
+                                    $('nav').removeClass('black');
+                              }
+                        })
 
 
-      </script>
+             </script>    
+<script type="text/javascript">
+                  // Select all links with hashes
+                  $('a[href*="#"]')
+                  // Remove links that don't actually link to anything
+                    .not('[href="#"]')
+                    .not('[href="#0"]')
+                    .click(function(event) {
+                   // On-page links
+                      if (
+                        location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+                        && 
+                        location.hostname == this.hostname
+                      ) {
+                        // Figure out element to scroll to
+                        var target = $(this.hash);
+                        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                        // Does a scroll target exist?
+                        if (target.length) {
+                          // Only prevent default if animation is actually gonna happen
+                          event.preventDefault();
+                          $('html, body').animate({
+                            scrollTop: target.offset().top
+                          }, 1000, function() {
+                            // Callback after animation
+                            // Must change focus!
+                            var $target = $(target);
+                            $target.focus();
+                            if ($target.is(":focus")) { // Checking if the target was focused
+                              return false;
+                            } else {
+                              $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+                              $target.focus(); // Set focus again
+                            };
+                          });
+                        }
+                      }
+                    });
 
+</script>
 </body>
 </html>
