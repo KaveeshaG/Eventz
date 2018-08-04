@@ -212,7 +212,7 @@ nav ul li a {
   cursor: pointer;
 }
 
-@media(max-width: 786px) {
+@media(max-width: 1080px) {
  
       .logo {
             position: fixed;
