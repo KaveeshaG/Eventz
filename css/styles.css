@@ -212,7 +212,11 @@ nav ul li a {
   cursor: pointer;
 }
 
-@media(max-width: 1080px) {
+@media  
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) 
+  and (orientation: portrait) {
  
       .logo {
             position: fixed;
