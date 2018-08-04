@@ -212,10 +212,7 @@ nav ul li a {
   cursor: pointer;
 }
 
-@media  
-  and (device-width: 270px) 
-  and (-webkit-device-pixel-ratio: 2) 
-  and (orientation: portrait) {
+@media(max-width: 640px) {
  
       .logo {
             position: fixed;
@@ -225,7 +222,7 @@ nav ul li a {
 
       .search{
             margin-left: -170px;
-            margin-top: 25px;
+            margin-top: 40px;
       }
 
       .acc li a{
@@ -266,7 +263,7 @@ nav ul li a {
       }
 
       .social{
-            margin-top: 280px;
+            margin-top: 290px;
             margin-left: -60px;
       }
 }
