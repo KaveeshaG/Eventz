@@ -213,7 +213,8 @@ nav ul li a {
 }
 
 @media  
-  and (device-width: 270px) 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
   and (-webkit-device-pixel-ratio: 2) 
   and (orientation: portrait) {
  
