@@ -88,6 +88,20 @@ nav ul li a {
       font-size: 14px;
 }
 
+.cool::after{
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #fff;
+  transition: width .3s
+}
+
+.cool:hover::after{
+  width: 100%;
+  transition: width .3s;
+}
+
 .acc li a{
       float: right;
       margin-right: -400px;
@@ -168,6 +182,7 @@ nav ul li a {
 }
 
 .banner-container h1{
+    margin-left: 4%;
       letter-spacing: 1em;
       font-size: 50px;
       /*box-shadow: 2px 2px 0px;*/
@@ -192,7 +207,7 @@ nav ul li a {
 }
 
 .text p{
-      margin-top: -10px !important;
+      margin-top: -5px !important;
       text-align: center;
       width: 56%;
       margin-left: 21%;
@@ -212,7 +227,7 @@ nav ul li a {
   cursor: pointer;
 }
 
-@media(max-width: 640px) {
+@media(max-width: 360px) {
  
       .logo {
             position: fixed;

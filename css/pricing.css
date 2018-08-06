@@ -1,0 +1,91 @@
+body{
+
+    margin-top: 50%;
+    height: 100%;
+    width: 100%;
+    background: url("../foot/06.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    /*font-family: "Helvetica Neue",sans-serif;*/
+}
+
+section h2{
+    margin-top: 30px;
+    color: white;
+    font-size: 30px;
+}
+
+section h3{
+    margin-top: 1%;
+    color: white;
+    font-size: 20px;
+}
+
+section p{
+    font-size: 15px;
+    color: white;
+    margin: 20px;
+}
+
+section .PRICING {
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+section .columns {
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-top: 4%;
+    float: left;
+    width: 16.5%;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+section .price {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.5s;
+    transition: 0.3s;
+}
+
+section .price:hover {
+    box-shadow: 0 8px 12px 0 rgba(253, 254, 254,0.2)
+}
+
+section .price .header {
+    background-color: #111;
+    color: white;
+    font-size: 20px;
+}
+
+section .price li {
+    font-size: 15px;
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(229, 232, 232,0.6); ;
+}
+
+section .price .white {
+    background-color: #eee;
+    font-size: 20px;
+}
+
+section .button {
+    background-color: #EE2E03;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+    section .columns {
+        width: 100%;
+    }
+}

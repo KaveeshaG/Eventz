@@ -1,0 +1,119 @@
+
+body{
+	margin: 0;
+	padding: 0;
+
+}
+
+.img{
+	background: url(../foot/14.jpeg)no-repeat 50% 50%;
+	background-attachment: fixed;
+	background-size: cover;
+    position: relative;
+    background-position: center;
+    /*height: 10%;
+    width: 100%;*/
+   
+}
+
+section{
+	
+	/*padding: 0px 0 0 ;*/
+}
+
+section h1{
+	margin-top: 30px;
+	color: white;
+	margin-left: 42.5%;
+}
+
+
+.tops p{
+	font-size: 15px;
+	padding: 20px;
+	margin-top: 40px;
+	margin-left: 0%;
+	color: #fff;
+	background: rgba(0,0,0,.4);
+	box-shadow: 0 5px 15px rgba(0,0,0,.2);
+	text-align: center;
+}
+
+.box{
+
+	margin: 30px;
+	position: relative;
+	width: 90%;
+	height: 350px;
+	overflow: hidden;
+	border-radius: 10px;
+	background: #000;
+	box-shadow: 0 5px 15px rgba(0,0,0,.5);
+	transition: .5s;
+}
+
+.box .imgbox{
+	position: relative;
+}
+
+ .box .imgbox img{
+ 	height: 50%;
+	transition: .5s;
+}
+
+.box:hover .imgbox img{
+	opacity: .5;
+	transform: translateY(-40px);
+}
+
+.box .content{
+	position: absolute;
+	bottom: -40px;
+	left: 0;
+	padding: 20px;
+	box-sizing: border-box;
+	transition: .5s;
+	opacity: 0;
+}
+
+.box:hover .content{
+	bottom: 0;
+	opacity: 5;
+}
+
+.box .content h3{
+	font-size: 40px;
+	color: #fff;
+	font-weight: 700;
+}
+
+.box .content p{
+	font-size: 16px;
+	color: #fff;
+	font-weight: 400;
+}
+
+.box .content .btnD{
+	border: none;
+	background: #E54040;
+	color: #fff;
+	font-size: 18px;
+	padding: 10px 20px;
+	font-weight: 700;
+	transition: .5s;
+}
+
+.box .content .btnD:hover{
+	background: #B80000;
+}
+
+
+
+
+
+
+
+
+
+
+
