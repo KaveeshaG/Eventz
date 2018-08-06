@@ -3,28 +3,28 @@ body{
 	margin: 0;
     padding: 0;
     width: 100%;
-}
-
-.img{
+	}
+	
+	.img{
 	background: url('../foot/10.jpeg') no-repeat 50% 50%;
 	width: 100%;
-    height: 100%;
+    height: 50%;
 	background-size: cover;
 	margin-top: 2%;
 	position: relative;
-    background-attachment: fixed;
-}
-
-.row{
+    background-attachment: fixed;	
+		}
+	
+	.row{
 	width: 100%;
-}
+	}
 
-.nm h1{
+	.nm h1{
 	margin-left: 45%;
-}
+	}
 
 
-.servicebox{
+	.servicebox{
 	padding: 25px 20px;
 	border-radius: 5px;
 	text-align: justify;
@@ -32,9 +32,9 @@ body{
 	z-index: 1;
 	position: relative;
 	margin-left: 4%;
-}
+	}
 
-.servicebox:before{
+	.servicebox:before{
 
 	content: "";
 	width: 100%;
@@ -46,13 +46,13 @@ body{
 	left: -100%;
 	z-index: -1;
 	transition: all 0.5s ease 0s;
-}
+	}
 
-.servicebox:hover:before{
-	left: 0;
-}
+		.servicebox:hover:before{
+			left: 0;
+		}
 
-.servicebox:after{
+		.servicebox:after{
 	content: "";
 	width: 5px;
 	height: 0;
@@ -62,23 +62,23 @@ body{
 	top: 0;
 	left: 0;
 	transition: all 0.5s ease 0s;
-}
+		}
 
-.servicebox:hover:after{
-	height: 100%;
-}
+		.servicebox:hover:after{
+			height: 100%;
+		}
 
-.servicebox .service-icon{
+		.servicebox .service-icon{
 	color: #F06D26;
 	margin-bottom: -10px;
 	transition: all 0.5s ease 0s;
-}
+		}
 
-.servicebox .service-icon i{
-	font-size: 30px;
-}
+		.servicebox .service-icon i{
+			font-size: 30px;
+		}
 
-.servicebox .title{
+		.servicebox .title{
 	margin-top: 10%;
 	display: inline-block;
 	border-bottom: 4px solid #F06D26;
@@ -86,19 +86,19 @@ body{
 	font-weight: 700;
 	text-transform: uppercase;
 	margin-right: 12px;
-}
+		}
 
-.servicebox .description{
+		.servicebox .description{
 	font-size: 15px;
 	color: #777;
 	line-height: 25px;
 	transition: all 0.5s ease 0s;
-}
+		}
 
-.servicebox:hover .service-icon,
-.servicebox:hover .description{
-	color: white;
-}
+		.servicebox:hover .service-icon,
+		.servicebox:hover .description{
+			color: white;
+		}
 
 
 
