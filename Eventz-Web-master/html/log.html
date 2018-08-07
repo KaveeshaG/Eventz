@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>REG/LOG</title>
+	<link rel="stylesheet" type="text/css" href="../css/my account.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+	    crossorigin="anonymous">
+</head>
+
+<body>
+	<div class="container">
+		<div class="hed">
+			<h1>MY ACCOUNT</h1>
+		</div>
+		<div class="login">
+			<h1>Login</h1>
+			<form method="POST" onsubmit="return validateLogin()">
+				<div class="textbox">
+					<i class="fas fa-user"></i>
+					<input type="text" placeholder="Email" id="emailLog" name="">
+				</div>
+				<p class="errorMsg" id="emailLogMsg"></p>
+				<div class="textbox">
+					<i class="fas fa-lock"></i>
+					<input type="password" placeholder="Password" id="passwordLog" name="">
+				</div>
+				<p class="errorMsg" id="passwordLogMsg"></p>
+				<input class="btn" type="submit" name="" value="Sign in">
+			</form>
+		</div>
+
+
+		<div class="register">
+			<h1>Register</h1>
+
+			<form method="POST" onsubmit="return validateRegister()">
+				<label>First Name</label>
+				<div class="textbox">
+					<i class="fas fa-user-edit"></i>
+					<input type="text" id="fname" placeholder="First Name" name="">
+
+				</div>
+				<p class="errorMsg" id="fnameMsg"></p>
+
+				<label>Last Name</label>
+				<div class="textbox">
+					<i class="fas fa-user-edit"></i>
+					<input type="text" id="lname" placeholder="Last Name" name="">
+				</div>
+
+				<p class="errorMsg" id="lnameMsg"></p>
+
+				<label>E-mail</label>
+				<div class="textbox">
+					<i class="far fa-envelope"></i>
+					<input type="text" id="email" placeholder="E-mail" name="">
+				</div>
+
+				<p class="errorMsg" id="emailMsg"></p>
+
+				<!--password-->
+				<label>Password</label>
+				<div class="textbox">
+					<i class="fas fa-lock"></i>
+					<input type="password" id="password" placeholder="Password" name="">
+				</div>
+
+				<p class="errorMsg" id="passwordMsg"></p>
+
+				<label>Re-type password</label>
+				<div class="textbox">
+					<i class="fas fa-lock"></i>
+					<input type="password" id="passwordConfirm" placeholder="Re-type password" name="">
+				</div>
+
+				<p class="errorMsg" id="passwordConfirmMsg"></p>
+
+				<input class="btn" type="submit" name="" value="Register">
+
+			</form>
+		</div>
+	</div>
+</body>
+
+<script src="../js/validate.js">
+</script>
+
+
+</html>
