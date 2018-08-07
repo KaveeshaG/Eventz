@@ -23,7 +23,10 @@ body{
       background-attachment: fixed;
       
 }
-
+.errorMsg {
+	font-size: 15px;
+	color: #e84118;
+}
 
 .hed{
 	width: 280px;
