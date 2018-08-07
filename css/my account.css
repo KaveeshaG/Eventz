@@ -1,11 +1,10 @@
 body {
-	height: 100%;
-	width: 100vh;
-	background-attachment: fixed;
+	
+	
 	font-family: sans-serif;
 	background: url("../foot/06.jpg") no-repeat;
 	background-size: cover;
-	position: relative;
+
 	background-attachment: fixed;
 	animation: fadeIn 2s;
 }
@@ -18,26 +17,23 @@ body {
 		opacity: 1;
 	}
 }
-
+.container{
+    max-width: 80%;
+}
 .hed {
 	width: 280px;
 	text-align: center;
-	left: 90%;
-	top: 50%;
-	margin-top: 25px;
-	position: absolute;
-	transform: translate(-50%, -50%);
+	
 	color: white;
 	font-size: 20px;
 }
 
 .login {
 	width: 280px;
-	position: absolute;
-	top: 28%;
-	left: 50%;
-	margin-top: 170px;
-	transform: translate(-50%, -50%);
+    float: left;
+	margin-left:10%;
+    margin-top: 0%;
+
 	color: white;
 }
 
@@ -92,13 +88,11 @@ body {
 }
 
 .register {
+    float: right;
+    
 	width: 280px;
-	position: absolute;
-	top: 100%;
-	left: 100%;
-	margin-top: 350px;
-	margin-left: 300px;
-	transform: translate(-50%, -50%);
+    margin-right: 10%;
+    margin-top: 0%;
 	color: white;
 }
 
@@ -122,35 +116,16 @@ body {
 	float: left;
 	text-align: center;
 }
-
-@media(max-width: 786px) {
-	.hed {
-		width: 280px;
-		text-align: center;
-		left: 40%;
-		top: 50%;
-		margin-top: 25px;
-		position: absolute;
-		transform: translate(-50%, -50%);
-		color: white;
-		font-size: 20px;
-	}
-	.login {
-		width: 280px;
-		position: absolute;
-		top: 35%;
-		left: 45%;
-		margin-top: 200px;
-		transform: translate(-50%, -50%);
-		color: white;
-	}
-	.register {
-		width: 280px;
-		position: absolute;
-		top: 100%;
-		left: 0%;
-		margin-top: 670px;
-		transform: translate(-50%, -50%);
-		color: white;
-	}
+@media(max-width: 940px) {
+    .container{
+   width: 100%;
+}.register {
+    
+	width: 280px;
+    float: left;
+	margin-left:10%;
+    margin-top: 0%;
+    margin-top: 0%;
+	color: white;
+}
 }
