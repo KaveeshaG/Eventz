@@ -11,19 +11,19 @@ body{
 
 section h2{
     margin-top: 30px;
-    color: white;
+    color: #474747;
     font-size: 30px;
 }
 
 section h3{
     margin-top: 1%;
-    color: white;
+    color: #474747;
     font-size: 20px;
 }
 
 section p{
     font-size: 15px;
-    color: white;
+    color: #474747;
     margin: 20px;
 }
 
@@ -55,7 +55,7 @@ section .price:hover {
     box-shadow: 0 8px 12px 0 rgba(253, 254, 254,0.2)
 }
 
-section .price .header {
+section .price .header1 {
     background-color: #111;
     color: white;
     font-size: 20px;
