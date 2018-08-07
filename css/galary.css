@@ -6,7 +6,7 @@ body{
 }
 
 .img{
-	background: url(../foot/14.jpeg)no-repeat 50% 50%;
+	background: url(../foot/14.jpg)no-repeat 50% 50%;
 	background-attachment: fixed;
 	background-size: cover;
     position: relative;
